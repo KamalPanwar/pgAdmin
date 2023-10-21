@@ -3,7 +3,7 @@ const pool = require("./src/pool.js");
 
 pool
   .connect({
-    host: "192.168.200.19",
+    host: "localhost",
     port: 5432,
     database: "offshoot",
     user: "postgres",
